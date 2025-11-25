@@ -10,12 +10,18 @@ body {
   color: #432;
 }
 
-a {
+sa {
   text-decoration: none;
 }
 
 img {
   max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1120px;
+  margin: auto;
+  padding: 0 1.5rem;
 }
 
 .align-center {
@@ -69,7 +75,7 @@ img {
 }
 
 .cover-home {
-  background-image: url(../image/cover-home-s.webp);
+  background-image: url(../images/cover-home-s.webp);
 }
 
 .about {
@@ -94,4 +100,83 @@ img {
 
 .btn:hover {
   background-color: #0090aa;
+}
+
+.info {
+  width: 100%;
+  max-width: 544px;
+  margin: auto;
+  padding: 0 1.5rem;
+  border-spacing: 0;
+}
+
+.info th,
+.info td {
+  border-bottom: 1px solid #c9c2bc;
+}
+
+.info th {
+  text-align: left;
+  font-weight: normal;
+  padding: 1rem;
+}
+
+.info td {
+  padding: 1rem 0;
+}
+
+.page-footer {
+  background-image: url(../images/footer-s.webp);
+  background-size: cover;
+  background-position: center;
+  padding-top: 12rem;
+}
+
+.copylight {
+  background-color: #432;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 6rem;
+  color: #fff;
+}
+
+@media (min-width: 800px) {
+  .page-title {
+    font-size: 5rem;
+  }
+
+  .heading-large {
+    font-size: 4rem;
+  }
+
+  .main-nav {
+    font-size: 2rem;
+  }
+
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+  }
+
+  .main-nav {
+    font-size: 2rem;
+  }
+
+  .cover-home {
+    background-image: url(../images/cover-home-l.webp);
+  }
+
+  .about {
+    margin: 4rem auto 0;
+  }
+
+  .page-footer {
+    background-image: url(../images/footer-l.webp);
+    padding-top: 12rem;
+  }
+
+  .info th {
+    padding-left: 2.5rem;
+  }
 }
